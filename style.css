@@ -1,0 +1,326 @@
+body {
+  background-color: #43ebaa;
+  margin: 0;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #893b8f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+  background-color: #893b8f;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a:active {
+  text-decoration: underline;
+  color: #43ebaa;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #43ebaa;
+}
+
+.hero-section h1 {
+  font-size: 2.2rem;
+  color: #000000;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: blue;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #893b8f;
+  color: #ffffff;
+}
+
+.products {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.product {
+  background-color: #6ceff6;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  padding: 16px;
+  width: 250px;
+  transition: 0.6s;
+}
+
+.product:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 5);
+}
+
+.product img {
+  width: 65%;
+  border-radius: 8px;
+}
+
+.product h3 {
+  color: #b40ec0;
+  margin: 10px 0 5px;
+}
+
+.product p {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.about {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about h2 {
+  color: #5a2a49;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about p {
+  font-size: 14px;
+}
+
+footer {
+  background-color: #893b8f;
+  color: whitesmoke;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.products {
+  background: linear-gradient(to bottom, #712f76, #fb4b69);
+}
+
+.btn2 {
+  padding: 10px 20px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 35px;
+  font-weight: bold;
+}
+
+.btn2:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn3 {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 35px;
+  font-weight: bold;
+}
+
+.btn3:hover {
+  background-color: #43ebaa;
+  color: #000000;
+}
+
+.old {
+  font-weight: bold;
+}
+
+.btn4 {
+  padding: 10px 20px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 35px;
+  font-weight: bold;
+}
+
+.cart {
+  display: flex;
+}
+
+.border:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 2);
+}
+
+.btn4:hover {
+  background-color: #43ebaa;
+  color: #000000;
+  box-shadow: #ff0000;
+}
+
+.products h2 {
+  color: #ffffff;
+}
+
+.center {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: blue;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 12px 25px;
+  border-radius: 15px;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn5 {
+  background-color: #893b8f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 35px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn5:hover {
+  background-color: blue;
+  color: #ffffff;
+}
+
+.login {
+  text-align: center;
+}
+
+.square {
+  background-color: #893b8f;
+  color: #ffffff;
+  padding: 30px 50px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 550px;
+  margin-right: 550px;
+  margin-bottom: 30px;
+}
+
+.submit {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+.login1 input {
+  border-radius: 3px;
+}
+
+.square1 {
+  background-color: #893b8f;
+  color: #ffffff;
+  padding: 30px 50px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-bottom: 30px;
+}
+
+.whatsapp {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 6px;
+  background-color: blue;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp:hover {
+  background-color: #43ebaa;
+  color: #000000;
+  text-decoration: underline;
+  border: 1px solid black;
+}
+
+.map {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 6px;
+  background-color: blue;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.map:hover {
+  background-color: #43ebaa;
+  color: #000000;
+  text-decoration: underline;
+  border: 1px solid black;
+}
+
+.call {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 6px;
+  background-color: blue;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.call:hover {
+  background-color: #43ebaa;
+  color: #000000;
+  text-decoration: underline;
+  border: 1px solid black;
+}
+
+.email {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 6px;
+  background-color: blue;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.email:hover {
+  background-color: #43ebaa;
+  color: #000000;
+  text-decoration: underline;
+  border: 1px solid black;
+}
