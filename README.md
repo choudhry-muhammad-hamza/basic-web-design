@@ -5,15 +5,6 @@ This project is created for practice and frontend learning purposes.
 
 ---
 
-## 🌐 Live Demo
-
-👉 (Add your GitHub Pages link here after deployment)
-
-Example:
-https://choudhry-muhammad-hamza.github.io/basic-web-design/
-
----
-
 ## 🛠️ Technologies Used
 
 - HTML5
